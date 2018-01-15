@@ -1,7 +1,7 @@
-import Turtle
+from turtle import Turtle
 class Ball(Turtle):
-    def __init__(self,x,y,dx,dy,r,color)
-    Turtle.__init__(self)
+    def __init__(self,x,y,dx,dy,r,color):
+        turtle.__init__(self)
         self.x = x
         self.y = y
         self.goto(x,y)
@@ -32,9 +32,11 @@ class Ball(Turtle):
         if(left_side_ball<-screen_width/2):
             self.dx= -dx
         if(upper_side_ball>screen_width/2):
-            self.dx= -dx
+            self.dy= -dy
         if(down_side_ball<-screen_width/2):
-            self.dx= -dx
+            self.dy= -dy
+
+    
             
             
         
