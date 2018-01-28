@@ -37,8 +37,6 @@ class Ball(Turtle):
             self.dy= -dy
 
     
-            
-            
-        
+turtle.mainloop()
 
 
